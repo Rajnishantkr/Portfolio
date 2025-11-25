@@ -56,7 +56,7 @@ export function NavigationMenuDemo() {
   const isMobile = useIsMobile();
 
   return (
-    <NavigationMenu viewport={isMobile}>
+    <NavigationMenu viewport={isMobile} className="w-full ">
       <NavigationMenuList className="flex-wrap">
         <NavigationMenuItem>
           <NavigationMenuTrigger>Dev-Saurabh-Kumar</NavigationMenuTrigger>
@@ -84,7 +84,7 @@ export function NavigationMenuDemo() {
                 <HoverCardTrigger asChild>
                   <ListItem
                     href="https://github.com/Dev-Saurabh-K"
-                    title="Dev-Saurabh-K"
+                    title="Github"
                   >
                     🚀 MERN Stack Developer | 💻 Open Source Enthusiast | 🐳
                     Exploring DevOps (Docker • CI/CD • GitHub Actions)
@@ -114,7 +114,7 @@ export function NavigationMenuDemo() {
                 <HoverCardTrigger asChild>
                   <ListItem
                 href="https://www.linkedin.com/in/saurabh-kumar-sakr/"
-                title="Saurabh Kumar"
+                title="Linkedin"
                 className="bg-blue-700"
               >
                 Computer Science Undergraduate | Full Stack Web Developer | GDG
@@ -147,7 +147,7 @@ export function NavigationMenuDemo() {
                 <HoverCardTrigger asChild>
                   <ListItem
                 href="https://www.instagram.com/saurabh_kumar_0100110/"
-                title="Saurabh_kumar_0100110"
+                title="Instagram"
                 className="bg-pink-700 "
               >
                 21 posts 1.1k followers 358 following
